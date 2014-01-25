@@ -1,0 +1,38 @@
+/* 
+by        : saumya 
+theme     : Indian republic day
+done date : 26 Jan 2014
+*/
+a {
+  text-decoration: none;
+  color: #2a9400;
+  display: inline-block;
+}
+h1{
+  color: #ff3d01;
+}
+h2{
+  color: #2a9400;
+}
+.header a{
+  color: #ff3d01;
+}
+.header .description{
+  color: #ff3d01;
+}
+.header .author{
+  color: #ff3d01;
+}
+footer .about{
+  color: #2a9400;
+}
+footer .about a{
+  color: #ff3d01;
+}
+
+.archive .year-label,.archive .month-label{
+  color: #ff3d01;
+}
+.content{
+  color: #ff3d01;
+}
