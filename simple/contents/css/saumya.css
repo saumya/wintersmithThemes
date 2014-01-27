@@ -1,0 +1,16 @@
+/* 
+by        : saumya 
+theme     : saumya
+done date : 27 Jan 2014
+*/
+a {
+  text-decoration: none;
+  color: #700000;
+  display: inline-block;
+}
+footer .about{
+	font-size: 0.8em;
+}
+footer span.nav{
+	font-size: 1.2em;
+}
