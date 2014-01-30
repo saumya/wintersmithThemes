@@ -4,6 +4,7 @@ theme     : Elegant
 done date : 30 Jan 2014
 */
 @font-face { font-family: tgd-regular; src: url('fonts/texgyreadventor-regular.otf'); } 
+@font-face { font-family: tgd-bold; src: url('fonts/texgyreadventor-bold.otf'); } 
 @font-face { font-family: kscript-regular; src: url('fonts/KaushanScript-Regular.otf'); } 
 
 body{
@@ -19,14 +20,13 @@ a {
 
 h1{
   /*color: #ff3d01;*/
-  /*font-family: tgd-regular;*/
+  font-family: tgd-bold;
 }
 h2{
   /*color: #2a9400;*/
-  
 }
 .header a{
- /* color: #ff3d01;*/
+ /* color: #ff3d01*/
 }
 .header .description{
   /*color: #ff3d01;*/
