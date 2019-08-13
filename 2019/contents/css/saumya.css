@@ -1,0 +1,67 @@
+/* 
+by        : saumya 
+theme     : Elegant
+done date : 30 Jan 2014
+*/
+@font-face { font-family: tgd-regular; src: url('fonts/texgyreadventor-regular.otf'); } 
+@font-face { font-family: tgd-bold; src: url('fonts/texgyreadventor-bold.otf'); } 
+@font-face { font-family: kscript-regular; src: url('fonts/KaushanScript-Regular.otf'); } 
+
+body{
+  font-family: tgd-regular;
+}
+a {
+  text-decoration: none;
+  /*color: #2a9400;*/
+  color: #777;
+  display: inline-block;
+}
+
+
+h1{
+  /*color: #ff3d01;*/
+  font-family: tgd-bold;
+}
+h2{
+  /*color: #2a9400;*/
+}
+.header a{
+ /* color: #ff3d01*/
+}
+.header .description{
+  /*color: #ff3d01;*/
+  font-family: kscript-regular;
+}
+.header .author{
+  /*color: #ff3d01;*/
+  font-family: kscript-regular;
+}
+.header .date{
+  text-align: center;
+}
+footer .about{
+  /*color: #2a9400;*/
+  font-family: kscript-regular;
+}
+footer .about a{
+  /*color: #ff3d01;*/
+}
+
+.archive .year-label,.archive .month-label{
+  /*color: #ff3d01;*/
+}
+.content{
+  /*color: #ff3d01;*/
+}
+
+
+
+p code {
+  padding: 0.1em 0.3em 0.2em;
+  border-radius: 0.3em;
+  position: relative;
+  top: -0.15em;
+  background: #dadada;
+  /*color: #fff;*/
+  white-space: nowrap;
+}
