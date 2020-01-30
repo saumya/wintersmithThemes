@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
 }
 
 body {
-  /*font-family: 'Lora', serif;*/
+  /* font-family: 'Lora', serif; */
   font-size: 21px;
   line-height: 1.52;
   background-color: #f8f8f8;
@@ -52,7 +52,7 @@ h2 {
 }
 
 h3 {
-  /*font-style: italic;*/
+  /* font-style: italic; */
   text-align: center;
   font-weight: 400;
   font-size: 1.4em;
@@ -71,7 +71,7 @@ li {
 blockquote {
   margin: 1.2em 3em;
   padding-left: 1em;
-  /*font-style: italic;*/
+  /* font-style: italic; */
 }
 
 hr {
@@ -100,8 +100,8 @@ hr {
 }
 
 .header .author {
-  /*font-family: 'Merriweather', serif;*/
-  /*font-variant: small-caps;*/
+  /* font-family: 'Merriweather', serif; */
+  /* font-variant: small-caps; */
   text-transform: lowercase;
   text-rendering: auto;
   text-align: center;
@@ -111,14 +111,14 @@ hr {
 
 .header .description {
   font-size: 1.2em;
-  /*font-style: italic;*/
+  /* font-style: italic; */
   text-align: center;
   margin-top: -0.3em;
 }
 
 body.article-detail > header h1 {
   font-size: 2.5em;
-  /*font-style: italic;*/
+  /* font-style: italic; */
   font-weight: 400;
   margin-bottom: -0.2em;
 }
@@ -162,7 +162,7 @@ footer .about {
 footer .copy {
   text-align: center;
   font-size: 0.7em;
-  /*font-style: italic;*/
+  /* font-style: italic; */
   margin-top: 1em;
 }
 
@@ -181,7 +181,7 @@ footer .copy, footer .copy a {
 }
 
 .article header h2 {
-  /*font-style: italic;*/
+  /* font-style: italic; */
   text-align: center;
   font-weight: 400;
   margin: 0.8em 0;
@@ -219,8 +219,8 @@ footer .copy, footer .copy a {
 }
 
 .more, .date {
-  /*font-family: 'Merriweather', serif;*/
-  font-variant: small-caps;
+  /* font-family: 'Merriweather', serif; */
+  /* font-variant: small-caps; */
   text-transform: lowercase;
   font-weight: 400;
   text-rendering: auto;
@@ -240,7 +240,7 @@ footer .copy, footer .copy a {
   margin: 0;
   margin-left: 6.1em;
   margin-bottom: 0.5em;
-  /*font-style: italic;*/
+  /* font-style: italic; */
 }
 
 .archive a, .archive span{
@@ -249,9 +249,10 @@ footer .copy, footer .copy a {
   margin-bottom: -1px;
   text-decoration: none;
 }
+
 .archive li:not(:last-child) {
-	border-bottom: 1px solid #d2d2d2;
-	margin-bottom: -1px;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: -1px;
 }
 
 .archive a.last, .archive span.last {
@@ -263,13 +264,16 @@ footer .copy, footer .copy a {
   width: 21em;
   text-indent: 1em;
   white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
 }
 
 .archive .year-label,
 .archive .month-label{
   width: 4em;
-  /*font-family: 'Merriweather', serif;*/
-  font-variant: small-caps;
+  /* font-family: 'Merriweather', serif; */
+  /* font-variant: small-caps; */
   text-transform: lowercase;
   font-weight: 400;
   text-rendering: auto;
@@ -284,6 +288,7 @@ footer .copy, footer .copy a {
 .archive ul {
   list-style: none;
   margin: 0;
+  overflow: hidden;
 }
 
 .archive ul li {
@@ -293,7 +298,7 @@ footer .copy, footer .copy a {
 /* code styling */
 
 code {
-  /*font-family: 'Anonymous Pro', monospace;*/
+  /* font-family: 'Anonymous Pro', monospace; */
   font-size: 0.85em;
   color: #000;
 }
@@ -307,9 +312,8 @@ p code {
   padding: 0.1em 0.3em 0.2em;
   border-radius: 0.3em;
   position: relative;
-  top: -0.15em;
-  background: #444;
-  color: #fff;
+  background: #fffff3;
+
   white-space: nowrap;
 }
 
@@ -325,7 +329,7 @@ code.lang-markdown .strong {
 }
 
 code.lang-markdown .emphasis {
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 code.lang-markdown .horizontal_rule,
@@ -412,7 +416,7 @@ code.lang-markdown .bullet {
   .archive * {
     float: none !important;
     line-height: 1.6 !important;
-    width: auto !important;
+    width: 100% !important;
     height: auto !important;
     text-align: left !important;
     border: 0 !important;
@@ -434,4 +438,3 @@ code.lang-markdown .bullet {
     margin-bottom: 1em;
   }
 }
-

@@ -11,10 +11,10 @@ html(lang='en')
         block title
           = locals.name
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
-      link(rel='stylesheet', href='/css/normalize.css')
-      //- link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
-      link(rel='stylesheet', href='/css/main.css')
-      link(rel='stylesheet', href='/css/saumya.css')
+      //-link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
+      //-link(rel='stylesheet', href=contents.css['main.css'].url)
+      link(rel='stylesheet', href=locals.url+'/css/main.css')
+      link(rel='stylesheet', href=locals.url+'/css/saumya.css')
   body(class=bodyclass)
     header.header
       div.content-wrap
@@ -32,7 +32,13 @@ html(lang='en')
         block footer
           section.about
             !=contents['about.md'].html
+            span.nav
+              a(href=locals.url+contents.index.url) Home
+              a(href=locals.url+'/archive.html') Blog List
+              a(href=locals.url+'/feed.xml') Feed
           section.copy
             p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
               a(href='https://github.com/jnordberg/wintersmith') Wintersmith
               //- please leave the "powered by" if you use the design
+              p
+                a(href='https://github.com/saumya/wintersmithThemes/tree/master/2019') Theme 2020

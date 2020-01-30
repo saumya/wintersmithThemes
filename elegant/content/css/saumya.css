@@ -26,7 +26,9 @@ h2{
   /*color: #2a9400;*/
 }
 .header a{
- /* color: #ff3d01*/
+ /* color: #ff3d01 */
+ color: #666;
+ font-family: tgd-regular;
 }
 .header .description{
   /*color: #ff3d01;*/
@@ -35,6 +37,11 @@ h2{
 .header .author{
   /*color: #ff3d01;*/
   font-family: kscript-regular;
+  color: #aaa;
+}
+.header .date{
+  text-align: center;
+  color: #ddd;
 }
 footer .about{
   /*color: #2a9400;*/
@@ -44,9 +51,38 @@ footer .about a{
   /*color: #ff3d01;*/
 }
 
+footer .about .nav a{
+  /*color: #4141A0;*/
+  font-family: tgd-regular;
+  background-color: #e4e4e4;
+  margin: 0.2em;
+  width: 80px;
+}
+
 .archive .year-label,.archive .month-label{
   /*color: #ff3d01;*/
 }
 .content{
   /*color: #ff3d01;*/
+}
+
+blockquote{
+  /*
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 0px 0px 0px 4px;
+  background-color: #eee;
+  */
+}
+
+
+
+p code {
+  padding: 0.1em 0.3em 0.2em;
+  border-radius: 0.3em;
+  position: relative;
+  top: -0.15em;
+  background: #dadada;
+  /*color: #fff;*/
+  white-space: nowrap;
 }
